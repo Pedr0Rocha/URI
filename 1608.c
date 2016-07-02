@@ -7,12 +7,6 @@ typedef struct {
 	int numCakeTypes;
 } Testcase;
 
-typedef struct {
-	int ingredientQuantity;
-	int ingredient;
-	int recipeCost;
-} Recipe;
-
 int main() {
 	int numTests = 0;
 	scanf("%d", &numTests);
@@ -21,6 +15,7 @@ int main() {
 	int bestResult = 0;
 	Testcase testcase[numTests];
 	while (cases != numTests) {
+		bestResult = 0;
 		scanf("%ld", &testcase[cases].money);
 		scanf("%d", &testcase[cases].ingredients);
 		scanf("%d", &testcase[cases].numCakeTypes);
@@ -34,16 +29,18 @@ int main() {
 		for (i = 0; i < testcase[cases].numCakeTypes; i++) {
 			int pairs = 0;
 			scanf("%d", &pairs);
-			Recipe recipes[pairs];
+			int recipeCost = 0;
 			for (j = 0; j < pairs; j++) {
-				scanf("%d", &recipes[j].ingredient);
-				scanf("%d", &recipes[j].ingredientQuantity);
-				recipes[i].recipeCost += recipes[i].ingredient * recipes[i].ingredientQuantity;
+				int ingredient, 
+					ingredientQuantity;
+				scanf("%d", &ingredient);
+				scanf("%d", &ingredientQuantity);
 
-				int howMany = testcase[cases].money / recipes[i].recipeCost;
-				if (howMany > bestResult)
-					bestResult = howMany;
+				recipeCost += ingredientsPrice[ingredient] * ingredientQuantity;
 			}
+			int howManyCakes = testcase[cases].money / recipeCost;
+			if (howManyCakes > bestResult)
+				bestResult = howManyCakes;
 		}
 		cases++;
 		printf("%d\n", bestResult);

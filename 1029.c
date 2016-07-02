@@ -13,8 +13,6 @@ int fib(int n) {
 	return total;
 }
 
-int fib2(int n);
-
 int main() {
 	int n = 0;
 	int fibResult = 0;

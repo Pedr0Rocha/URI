@@ -9,3 +9,4 @@
 - [1002 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1002)
 - [1035 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1035)
 - [2060 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/2060)
+- [1087 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1087)

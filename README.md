@@ -4,6 +4,7 @@
 - [1002 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1002)
 - [1029 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1029)
 - [1035 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1035)
+- [1039 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1039)
 - [1068 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1068)
 - [1072 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1072)
 - [1076 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1076)

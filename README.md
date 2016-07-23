@@ -12,6 +12,7 @@
 - [1082 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1082)
 - [1087 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1087)
 - [1103 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1103)
+- [1281 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1281)
 - [1564 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1564)
 - [1608 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1608)
 - [1875 - Solved](https://www.urionlinejudge.com.br/judge/en/problems/view/1875)
